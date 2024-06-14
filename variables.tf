@@ -5,3 +5,7 @@ variable "ec2-ubuntu-ami" {
 variable "ec2-amazon-linux-ami" {
     default = "ami-0e1d06225679bc1c5"
 }
+
+variable "db-password" {
+    default = "pass@123"
+}
